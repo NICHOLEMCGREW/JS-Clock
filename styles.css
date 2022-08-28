@@ -1,11 +1,19 @@
 html {
-    background: url(imgs/shot-by-cerqueira-8qH4GSYBiSA-unsplash.jpg);
-    /* background-image: url(imgs/sunrise.JPEG);
-    background-image: url(imgs/sunset.JPEG); */
-    background-size: cover;
+    background: url(imgs/zen.JPEG) no-repeat center center fixed;
+    background-image: url(imgs/zen.JPEG);
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
     font-size: 10px;
+  }
+
+  img {
+    max-width: fit-content;
+    height: auto;
+    width: auto;
   }
 
   body {
@@ -29,9 +37,6 @@ html {
     color: black;
     font-size: 60px;
     font-family: 'Orbitron';
-    /* font-family: 'Lato', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Roboto', sans-serif; */
     letter-spacing: 6px;
   }
 
@@ -45,7 +50,7 @@ html {
     padding: 2rem;
     box-shadow:
       0 0 0 4px rgba(0,0,0,0.1),
-      inset 0 0 0 3px #e3e1e1,
+      inset 0 0 0 3px #4e4d4d,
       inset 0 0 10px black,
       0 0 10px rgba(0,0,0,0.2);
   }
